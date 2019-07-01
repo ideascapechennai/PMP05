@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700);
 
 
 
@@ -22,12 +22,12 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 4.25rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.4rem;
 }
 .display-2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
 }
 .display-4 {
   font-family: 'Poppins', sans-serif;
@@ -48,14 +48,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.4rem;
-    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.72rem;
+    font-size: calc( 1.8399999999999999rem + (3.4 - 1.8399999999999999) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.8399999999999999rem + (3.4 - 1.8399999999999999) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 1.76rem;
-    font-size: calc( 1.42rem + (2.2 - 1.42) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.42rem + (2.2 - 1.42) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.92rem;
+    font-size: calc( 1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.7rem;
@@ -909,10 +909,10 @@ pre {
 }
 /*Menu*/
 .display-1 > .mbr-iconfont {
-  font-size: 6.8rem;
+  font-size: 5.44rem;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 3.52rem;
+  font-size: 3.84rem;
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.4rem;
@@ -978,7 +978,7 @@ body {
   box-shadow: none !important;
 }
 .cid-rt5jyqN0LU {
-  background-image: url("../../../assets/images/hannah-wei-84051-2000x1333.jpg");
+  background-image: url("../../../assets/images/abhishek-a-pmp-2000x1333.jpg");
 }
 .cid-rt5jyqN0LU .media-container-column .btn-bgr {
   z-index: 0;
@@ -987,12 +987,21 @@ body {
   background: linear-gradient(#d6173f -10%, #00113e 75%);
 }
 .cid-rt5jyqN0LU H1 {
-  color: #ffffff;
+  color: #efefef;
+}
+.cid-rt5jyqN0LU DIV {
+  text-align: center;
 }
 .cid-rt5kpqUUbX {
   padding-top: 120px;
   padding-bottom: 90px;
   background-image: url("../../../assets/images/luca-bravo-207676-2000x1333.jpg");
+}
+.cid-rt5kpqUUbX .mbr-text {
+  color: #bea9e6;
+}
+.cid-rt5kpqUUbX H1 {
+  color: #efefef;
 }
 .cid-rt5kgJNmm3 {
   padding-top: 105px;
@@ -1028,4 +1037,7 @@ body {
 }
 .cid-rt5kgJNmm3 .mbr-section-subtitle {
   color: #767676;
+}
+.cid-rt5kgJNmm3 H2 {
+  color: #7237a2;
 }
